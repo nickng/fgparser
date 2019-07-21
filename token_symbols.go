@@ -7,13 +7,14 @@ type Sym string
 
 // Kinds of single-rune symbols
 const (
-	SymLParen Sym = "("
-	SymRParen     = ")"
-	SymLBrace     = "{"
-	SymRBrace     = "}"
-	SymDot        = "."
-	SymComma      = ","
-	SymAssign     = "="
+	SymLParen    Sym = "("
+	SymRParen        = ")"
+	SymLBrace        = "{"
+	SymRBrace        = "}"
+	SymDot           = "."
+	SymComma         = ","
+	SymAssign        = "="
+	SymSemicolon     = ";"
 )
 
 // Symbol is a token type for single-rune symbols
