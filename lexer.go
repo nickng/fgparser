@@ -84,6 +84,8 @@ func (t *Lexer) Next() (Token, error) {
 		return Symbol{sym: SymDot, pos: pos}, nil
 	case ',':
 		return Symbol{sym: SymComma, pos: pos}, nil
+	case '=':
+		return Symbol{sym: SymAssign, pos: pos}, nil
 	default:
 		if err := t.unread(); err != nil {
 			return nil, err

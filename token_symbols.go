@@ -13,6 +13,7 @@ const (
 	SymRBrace     = "}"
 	SymDot        = "."
 	SymComma      = ","
+	SymAssign     = "="
 )
 
 // Symbol is a token type for single-rune symbols
